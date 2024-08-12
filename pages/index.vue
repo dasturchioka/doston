@@ -129,7 +129,7 @@ const sendMessage = async (e: Event) => {
 				</div>
 			</div>
 		</section>
-		<section id="services" class="py-20">
+		<section class="py-20">
 			<div
 				class="container mx-auto px-2 flex lg:flex-row flex-col lg:justify-between justify-center items-center"
 			>
@@ -255,7 +255,7 @@ const sendMessage = async (e: Event) => {
 				<img src="/laptop.webp" class="w-full h-full" alt="Ataxanov Dostonbek" />
 			</div>
 		</section>
-		<section class="py-20 bg-gray-100">
+		<section id="services" class="py-20 bg-gray-100">
 			<div class="container mx-auto px-2">
 				<h1 class="lg:text-5xl text-3xl mb-5 font-bold text-center text-blue">
 					Here to meet all of your copywriting needs
@@ -297,6 +297,20 @@ const sendMessage = async (e: Event) => {
 									Up to 5 pages of rich, SEO copy to get you the most effective engagement on your
 									website and drive sales. I partner with my own amazing graphic designers, or one
 									your choice.
+								</p>
+							</div>
+						</div>
+						<div class="box flex items-start">
+							<div class="logo h-full">
+								<IconCheck class="text-green-500 w-[30px] h-[30px]" />
+							</div>
+							<div class="text ml-2">
+								<h4 class="text-xl mb-2 font-bold">Video Sales Letter (VSL):</h4>
+								<p>
+									Want your message to really stand out? I’ll write a video sales letter that grabs
+									attention and gets people excited about what you’re offering. Think of it like a
+									super catchy story that makes your product or service look amazing. I handle all
+									the writing, so you can focus on sharing your awesome message with the world.
 								</p>
 							</div>
 						</div>
@@ -421,7 +435,9 @@ const sendMessage = async (e: Event) => {
 					Take the next step towards bettering your business
 				</p>
 			</div>
-			<div class="container flex lg:flex-row flex-col items-start lg:justify-between justify-center lg:gap-x-20 gap-y-16 mx-auto px-2">
+			<div
+				class="container flex lg:flex-row flex-col items-start lg:justify-between justify-center lg:gap-x-20 gap-y-16 mx-auto px-2"
+			>
 				<div class="left lg:w-[44%] w-full">
 					<form @submit="sendMessage" class="form">
 						<h3 class="title lg:text-3xl text-xl font-bold text-center mb-10">
