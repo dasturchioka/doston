@@ -238,23 +238,6 @@ const sendMessage = async (e: Event) => {
 				</div>
 			</div>
 		</section>
-		<section
-			id="vsl"
-			class="container mx-auto px-2 flex flex-col lg:flex-row items-center lg:justify-between justify-center sm:py-40 py-28"
-		>
-			<div class="left-part lg:w-[40%] w-full space-y-6">
-				<h1 class="text-6xl font-bold mb-10 leading-[80px] text-blue">Video Sales Letter (VSL):</h1>
-				<p class="text-lg">
-					Want your message to really stand out? I’ll write a video sales letter that grabs
-					attention and gets people excited about what you’re offering. Think of it like a super
-					catchy story that makes your product or service look amazing. I handle all the writing, so
-					you can focus on sharing your awesome message with the world.
-				</p>
-			</div>
-			<div class="right-part flex lg:w-[50%] w-full items-center justify-center lg:mt-0 mt-10">
-				<img src="/laptop.webp" class="w-full h-full" alt="Ataxanov Dostonbek" />
-			</div>
-		</section>
 		<section id="services" class="py-20 bg-gray-100">
 			<div class="container mx-auto px-2">
 				<h1 class="lg:text-5xl text-3xl mb-5 font-bold text-center text-blue">
