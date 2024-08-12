@@ -24,7 +24,7 @@ const closeResponsiveNavbar = () => {
 		<ClientOnly>
 			<Toaster position="top-right" />
 		</ClientOnly>
-		<nav class="navbar transition-all bg-blue py-4 fixed top-0 w-full">
+		<nav class="navbar z-50 shadow-lg transition-all bg-blue py-4 fixed top-0 w-full">
 			<div class="container px-2 flex items-center justify-between mx-auto">
 				<div class="first-part flex items-center space-x-4">
 					<div class="left xl:w-[70px] xl:h-[70px] w-[50px] h-[50px]">
@@ -38,12 +38,11 @@ const closeResponsiveNavbar = () => {
 				<div class="second-part space-x-4 text-white lg:flex hidden">
 					<NuxtLink class="p-1 transition-all hover:text-yellow-bolder" to="/">Home</NuxtLink>
 					<NuxtLink class="p-1 transition-all hover:text-yellow-bolder" to="#about">About</NuxtLink>
-
 					<NuxtLink class="p-1 transition-all hover:text-yellow-bolder" to="#services"
 						>Services</NuxtLink
 					>
-					<NuxtLink class="p-1 transition-all hover:text-yellow-bolder" to="#vsl"
-						>VSL</NuxtLink
+					<NuxtLink class="p-1 transition-all hover:text-yellow-bolder" to="#expertise"
+						>Expertise</NuxtLink
 					>
 					<NuxtLink to="#contact" class="bg-yellow-bolder rounded p-1 px-2 font-bold"
 						>Contact</NuxtLink
@@ -107,8 +106,8 @@ const closeResponsiveNavbar = () => {
 								'opacity-0': !isResponsiveNavbarVisible,
 							}"
 							class="p-1 transition-all duration-[950ms] hover:text-yellow-bolder"
-							to="#vsl"
-							>VSL</NuxtLink
+							to="#expertise"
+							>Expertise</NuxtLink
 						>
 						<NuxtLink
 							@click="closeResponsiveNavbar"
