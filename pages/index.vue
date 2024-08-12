@@ -238,7 +238,7 @@ const sendMessage = async (e: Event) => {
 				</div>
 			</div>
 		</section>
-		<section id="services" class="py-20 bg-gray-100">
+		<section id="services" class="py-20">
 			<div class="container mx-auto px-2">
 				<h1 class="lg:text-5xl text-3xl mb-5 font-bold text-center text-blue">
 					Here to meet all of your copywriting needs
